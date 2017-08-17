@@ -12,6 +12,10 @@
 		BB24D1701F45B7C8003CB335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB24D16E1F45B7C8003CB335 /* Main.storyboard */; };
 		BB24D1721F45B7C8003CB335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB24D1711F45B7C8003CB335 /* Assets.xcassets */; };
 		BB24D1751F45B7C8003CB335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB24D1731F45B7C8003CB335 /* LaunchScreen.storyboard */; };
+		BB24D17D1F45B800003CB335 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24D17C1F45B800003CB335 /* MyCollectionViewCell.swift */; };
+		BB24D17F1F45B80B003CB335 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB24D17E1F45B80B003CB335 /* MyCollectionViewCell.xib */; };
+		BB24D1811F45B813003CB335 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24D1801F45B813003CB335 /* MyViewController.swift */; };
+		BB24D1831F45B819003CB335 /* YHCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24D1821F45B819003CB335 /* YHCollectionLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		BB24D1711F45B7C8003CB335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB24D1741F45B7C8003CB335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB24D1761F45B7C8003CB335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB24D17C1F45B800003CB335 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB24D17E1F45B80B003CB335 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB24D1801F45B813003CB335 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BB24D1821F45B819003CB335 /* YHCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHCollectionLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		BB24D1691F45B7C8003CB335 /* WaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				BB24D1841F45B81F003CB335 /* Library */,
+				BB24D1801F45B813003CB335 /* MyViewController.swift */,
+				BB24D17E1F45B80B003CB335 /* MyCollectionViewCell.xib */,
+				BB24D17C1F45B800003CB335 /* MyCollectionViewCell.swift */,
 				BB24D16A1F45B7C8003CB335 /* AppDelegate.swift */,
 				BB24D16C1F45B7C8003CB335 /* ViewController.swift */,
 				BB24D16E1F45B7C8003CB335 /* Main.storyboard */,
@@ -62,6 +74,14 @@
 				BB24D1761F45B7C8003CB335 /* Info.plist */,
 			);
 			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		BB24D1841F45B81F003CB335 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BB24D1821F45B819003CB335 /* YHCollectionLayout.swift */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			files = (
 				BB24D1751F45B7C8003CB335 /* LaunchScreen.storyboard in Resources */,
 				BB24D1721F45B7C8003CB335 /* Assets.xcassets in Resources */,
+				BB24D17F1F45B80B003CB335 /* MyCollectionViewCell.xib in Resources */,
 				BB24D1701F45B7C8003CB335 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,9 @@
 			files = (
 				BB24D16D1F45B7C8003CB335 /* ViewController.swift in Sources */,
 				BB24D16B1F45B7C8003CB335 /* AppDelegate.swift in Sources */,
+				BB24D1811F45B813003CB335 /* MyViewController.swift in Sources */,
+				BB24D1831F45B819003CB335 /* YHCollectionLayout.swift in Sources */,
+				BB24D17D1F45B800003CB335 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
